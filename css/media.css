@@ -1,0 +1,794 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .nav-btn{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 82px;
+        padding: 25px 0;
+        background-color: var(--second-color);
+        display: none;
+    }
+    .nav-links li{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .nav-links li a:hover::after{
+        display: none;
+    }
+    .nav-links li a{
+        transition: color 0.4s ease-in-out;
+    }
+    .nav-links li a:hover{
+        color: var(--fifth-color);
+    }
+    .nav-logo{
+        width: 113px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 22px;
+    }
+    .banner-child{
+        text-align: center;
+    }
+    .banner-child span{
+        font-size: 17px;
+    }
+    .banner-child h1{
+        font-size: 40px;
+    }
+    .banner-child h2{
+        font-size: 23px;
+    }
+    .banner-btn .cmn-btn{
+        font-size: 13px;
+        padding: 14px 27px 13px 28px;
+    }
+    .banner-btn .book-btn{
+        margin-left: 14px;
+        font-size: 13px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-head{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .about-head h2{
+        font-size: 18px;
+    }
+    .about-foot{
+        padding: 42px 38px 28px 51px;
+    }
+    .about-foot span{
+        font-size: 18px;
+    }
+    .about-foot h3{
+        font-size: 27px;
+    }
+    .about-foot p{
+        font-size: 13px;
+    }
+    .about-foot .cmn-btn{
+        padding: 14px 30px 13px;
+        font-size: 13px;
+    }
+    .serv-sec{
+        padding: 55px 0 61px;
+    }
+    .serv-child{
+        text-align: center;
+    }
+    .serv-left, .serv-right{
+        flex-basis: 100%;
+     }
+    .serv-icon img{
+        width: 42px;
+    }
+    .serv-text h3{
+        font-size: 18px;
+    }
+    .serv-text p{
+        font-size: 13px;
+    }
+    .serv-link{
+        font-size: 13px;
+    }
+    .cmn-serv{
+        margin-bottom: 40px;
+    }
+    .up{
+        margin-bottom: 22px;
+    }
+    .serv-details span{
+        font-size: 18px;
+    }
+    .serv-details h2{
+        font-size: 27px;
+    }
+    .serv-details p{
+        font-size: 13px;
+    }
+    .serv-details .cmn-btn{
+        padding: 14px 33px 13px 28px;
+        font-size: 13px;
+    }
+    .card-sec{
+        padding: 65px 0 49px;
+    }
+    .card-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-head{
+        width: 100%;
+    }
+    .card-head span{
+        font-size: 18px;
+    }
+    .card-head h2{
+        font-size: 27px;
+    }
+    .card-head p{
+        font-size: 13px;
+    }
+    .cmn-card p{
+        font-size: 13px;
+    }
+    .card-stamp img{
+        width: 80px;
+    }
+    .card-btn .cmn-btn{
+        margin-bottom: 20px;
+        font-size: 13px;
+        padding: 14px 22px 13px;
+    }
+    .card-btn .book-btn{
+        margin-left: 0;
+        font-size: 13px;
+        padding: 14px 25px 13px;
+    }
+    .app-img{
+        transform: translate(-30%);
+    }
+    .app-child{
+        text-align: center;
+        width: 100%;
+    }
+    .app-child h2{
+        font-size: 27px;
+    }
+    .app-child .cmn-btn{
+        font-size: 13px;
+        padding: 14px 36px 13px;
+    }
+    .footer-sec{
+        padding-top: 72px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmn-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 250px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-head{
+        font-size: 22px;
+    }
+    .footer-links li{
+        font-size: 18px;
+    }
+    .footer-title{
+        padding-top: 27px;
+    }
+    .footer-title p{
+        font-size: 13px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-btn{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 90px;
+        padding: 25px 0;
+        background-color: var(--second-color);
+        display: none;
+    }
+    .nav-links li{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .nav-links li a:hover::after{
+        display: none;
+    }
+    .nav-links li a{
+        transition: color 0.4s ease-in-out;
+    }
+    .nav-links li a:hover{
+        color: var(--fifth-color);
+    }
+    .nav-logo{
+        width: 123px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 24px;
+    }
+    .banner-child{
+        text-align: center;
+    }
+    .banner-child span{
+        font-size: 20px;
+    }
+    .banner-child h1{
+        font-size: 50px;
+    }
+    .banner-child h2{
+        font-size: 30px;
+    }
+    .banner-btn .cmn-btn{
+        font-size: 14px;
+        padding: 16px 30px 15px 31px;
+    }
+    .banner-btn .book-btn{
+        margin-left: 14px;
+        font-size: 14px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-head{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .about-head h2{
+        font-size: 20px;
+    }
+    .about-foot{
+        padding: 50px 40px 30px 61px;
+    }
+    .about-foot span{
+        font-size: 20px;
+    }
+    .about-foot h3{
+        font-size: 30px;
+    }
+    .about-foot p{
+        font-size: 15px;
+    }
+    .about-foot .cmn-btn{
+        padding: 15px 35px 14px;
+        font-size: 15px;
+    }
+    .serv-sec{
+        padding: 75px 0 81px;
+    }
+    .serv-child{
+        text-align: center;
+    }
+    .serv-left, .serv-right{
+        flex-basis: 100%;
+     }
+    .serv-icon img{
+        width: 42px;
+    }
+    .serv-text h3{
+        font-size: 20px;
+    }
+    .serv-text p{
+        font-size: 15px;
+    }
+    .serv-link{
+        font-size: 15px;
+    }
+    .cmn-serv{
+        margin-bottom: 40px;
+    }
+    .up{
+        margin-bottom: 22px;
+    }
+    .serv-details span{
+        font-size: 20px;
+    }
+    .serv-details h2{
+        font-size: 30px;
+    }
+    .serv-details p{
+        font-size: 15px;
+    }
+    .serv-details .cmn-btn{
+        padding: 15px 36px 14px 30px;
+        font-size: 15px;
+    }
+    .card-sec{
+        padding: 65px 0 49px;
+    }
+    .card-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-head{
+        width: 100%;
+    }
+    .card-head span{
+        font-size: 20px;
+    }
+    .card-head h2{
+        font-size: 30px;
+    }
+    .card-head p{
+        font-size: 15px;
+    }
+    .cmn-card p{
+        font-size: 15px;
+    }
+    .card-stamp img{
+        width: 90px;
+    }
+    .card-btn .cmn-btn{
+        margin-bottom: 20px;
+        font-size: 15px;
+        padding: 15px 24px 14px;
+    }
+    .card-btn .book-btn{
+        margin-left: 29px;
+        font-size: 15px;
+        padding: 15px 28px 14px;
+    }
+    .app-child{
+        text-align: center;
+        width: 100%;
+    }
+    .app-child h2{
+        font-size: 30px;
+    }
+    .app-child .cmn-btn{
+        font-size: 15px;
+        padding: 15px 40px 14px;
+    }
+    .footer-sec{
+        padding-top: 82px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmn-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-logo{
+        width: 270px;
+        display: inline-block;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-head{
+        font-size: 22px;
+    }
+    .footer-links li{
+        font-size: 18px;
+    }
+    .footer-title{
+        padding-top: 30px;
+    }
+    .footer-title p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-btn{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        padding: 25px 0;
+        background-color: var(--second-color);
+        display: none;
+    }
+    .nav-links li{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .nav-links li a:hover::after{
+        display: none;
+    }
+    .nav-links li a{
+        transition: color 0.4s ease-in-out;
+    }
+    .nav-links li a:hover{
+        color: var(--fifth-color);
+    }
+    .nav-logo{
+        width: 143px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 26px;
+    }
+    .banner-child{
+        text-align: center;
+    }
+    .banner-child span{
+        font-size: 22px;
+    }
+    .banner-child h1{
+        font-size: 60px;
+    }
+    .banner-child h2{
+        font-size: 35px;
+    }
+    .banner-btn .cmn-btn{
+        font-size: 15px;
+        padding: 17px 34px 16px 35px;
+    }
+    .banner-btn .book-btn{
+        margin-left: 14px;
+        font-size: 15px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-head{
+        width: 70%;
+        margin-bottom: 32px;
+    }
+    .about-head h2{
+        font-size: 24px;
+    }
+    .about-foot{
+        padding: 55px 44px 34px 65px;
+    }
+    .about-foot span{
+        font-size: 24px;
+    }
+    .about-foot h3{
+        font-size: 34px;
+    }
+    .about-foot p{
+        font-size: 16px;
+    }
+    .about-foot .cmn-btn{
+        padding: 16px 38px 15px;
+        font-size: 16px;
+    }
+    .serv-sec{
+        padding: 75px 0 81px;
+    }
+    .serv-child{
+        text-align: center;
+    }
+    .serv-left, .serv-right{
+        flex-basis: 100%;
+     }
+    .serv-icon img{
+        width: 48px;
+    }
+    .serv-text h3{
+        font-size: 22px;
+    }
+    .serv-text p{
+        font-size: 16px;
+    }
+    .serv-link{
+        font-size: 16px;
+    }
+    .cmn-serv{
+        margin-bottom: 40px;
+    }
+    .up{
+        margin-bottom: 25px;
+    }
+    .serv-details span{
+        font-size: 22px;
+    }
+    .serv-details h2{
+        font-size: 34px;
+    }
+    .serv-details p{
+        font-size: 16px;
+    }
+    .serv-details .cmn-btn{
+        padding: 16px 38px 15px 35px;
+        font-size: 16px;
+    }
+    .card-sec{
+        padding: 75px 0 59px;
+    }
+    .card-child a{
+        flex-basis: calc(50% - 22px);
+    }
+    .card-head{
+        width: 100%;
+    }
+    .card-head span{
+        font-size: 22px;
+    }
+    .card-head h2{
+        font-size: 34px;
+    }
+    .card-head p{
+        font-size: 16px;
+    }
+    .cmn-card p{
+        font-size: 16px;
+    }
+    .card-stamp img{
+        width: 100px;
+    }
+    .card-btn .cmn-btn{
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding: 16px 28px 15px;
+    }
+    .card-btn .book-btn{
+        margin-left: 29px;
+        font-size: 16px;
+        padding: 16px 32px 15px;
+    }
+    .app-child{
+        text-align: center;
+        width: 100%;
+    }
+    .app-child h2{
+        font-size: 34px;
+    }
+    .app-child .cmn-btn{
+        font-size: 16px;
+        padding: 16px 48px 15px;
+    }
+    .footer-sec{
+        padding-top: 92px;
+    }
+    .cmn-footer{
+        width: 50%;
+        text-align: center;
+    }
+    .footer-logo{
+        width: 280px;
+        display: inline-block;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-head{
+        font-size: 24px;
+    }
+    .footer-links li{
+        font-size: 20px;
+    }
+    .footer-title{
+        padding-top: 35px;
+    }
+    .footer-title p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-btn{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 105px;
+        padding: 25px 0;
+        background-color: var(--second-color);
+        display: none;
+    }
+    .nav-links li{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .nav-links li a:hover::after{
+        display: none;
+    }
+    .nav-links li a{
+        transition: color 0.4s ease-in-out;
+    }
+    .nav-links li a:hover{
+        color: var(--fifth-color);
+    }
+    .nav-logo{
+        width: 153px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 28px;
+    }
+    .banner-child{
+        text-align: center;
+    }
+    .banner-child span{
+        font-size: 25px;
+    }
+    .banner-child h1{
+        font-size: 70px;
+    }
+    .banner-child h2{
+        font-size: 40px;
+    }
+    .banner-btn .cmn-btn{
+        font-size: 16px;
+        padding: 18px 37px 17px 38px;
+    }
+    .banner-btn .book-btn{
+        margin-left: 16px;
+        font-size: 16px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-head{
+        width: 70%;
+        margin-bottom: 32px;
+    }
+    .about-head h2{
+        font-size: 25px;
+    }
+    .about-foot{
+        padding: 55px 44px 34px 65px;
+    }
+    .about-foot span{
+        font-size: 25px;
+    }
+    .about-foot h3{
+        font-size: 36px;
+    }
+    .about-foot p{
+        font-size: 17px;
+    }
+    .about-foot .cmn-btn{
+        padding: 18px 40px 17px;
+        font-size: 17px;
+    }
+    .serv-sec{
+        padding: 85px 0 91px;
+    }
+    .serv-child{
+        text-align: center;
+        flex-direction: column;
+    }
+    .serv-left{
+        flex-direction: row;
+    }
+    .serv-icon img{
+        width: 52px;
+    }
+    .serv-text h3{
+        font-size: 24px;
+    }
+    .serv-text p{
+        font-size: 18px;
+    }
+    .serv-link{
+        font-size: 18px;
+    }
+    .cmn-serv{
+        margin-bottom: 40px;
+    }
+    .up{
+        margin-right: 25px;
+    }
+    .serv-details span{
+        font-size: 24px;
+    }
+    .serv-details h2{
+        font-size: 36px;
+    }
+    .serv-details p{
+        font-size: 18px;
+    }
+    .serv-details .cmn-btn{
+        padding: 18px 43px 17px 38px;
+        font-size: 18px;
+    }
+    .card-sec{
+        padding: 85px 0 69px;
+    }
+    .card-child a{
+        flex-basis: calc(50% - 22px);
+    }
+    .card-head{
+        width: 100%;
+    }
+    .card-head span{
+        font-size: 24px;
+    }
+    .card-head h2{
+        font-size: 36px;
+    }
+    .card-head p{
+        font-size: 18px;
+    }
+    .cmn-card p{
+        font-size: 18px;
+    }
+    .card-stamp img{
+        width: 100px;
+    }
+    .card-btn .cmn-btn{
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding: 18px 31px 17px;
+    }
+    .card-btn .book-btn{
+        margin-left: 29px;
+        font-size: 18px;
+        padding: 18px 35px 17px;
+    }
+    .app-child{
+        width: 70%;
+    }
+    .app-child h2{
+        font-size: 36px;
+    }
+    .app-child .cmn-btn{
+        font-size: 18px;
+        padding: 18px 56px 17px 57px;
+    }
+    .footer-sec{
+        padding-top: 102px;
+    }
+    .cmn-footer{
+        width: 33.33%;
+        text-align: center;
+    }
+    .footer-logo{
+        width: 290px;
+        display: inline-block;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-head{
+        font-size: 24px;
+    }
+    .footer-links li{
+        font-size: 20px;
+    }
+    .footer-title{
+        padding-top: 45px;
+    }
+    .footer-title p{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
